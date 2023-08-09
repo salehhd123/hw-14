@@ -41,8 +41,8 @@ Cannot be null
 it has to be number
 
 Endpoints :
-Get all the Employees
-Add new Employee
-Update Employee
-Delete Employee
+Get all the Employees<br>
+Add new Employee<br>
+Update Employee<br>
+Delete Employee<br>
 Employees apply for an annual leave and and turn their onLeave status to true and reduce annualLeave by 1 (Check if employee is on leave return bad request, if employee applies for leave and has 0 days return bad request)
