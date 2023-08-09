@@ -22,8 +22,7 @@ public class EmpModel {
 private String name;
 
     @NotNull(message = " can not be null")
-    @Max(value = 25,message = "can not be more than 25")
-    @Min(value = 0,message =  "can not be less than zero")
+    @Min(value = 26,message =  "must be more than 25")
 private int age;
 
     @NotEmpty(message = "can not be empty")
